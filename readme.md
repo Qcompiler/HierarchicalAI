@@ -2,6 +2,7 @@
 # 运行示例
 
 ``` source load.sh ```
+
 ``` srun -N 1  --pty --gres=gpu:4090:1  python two_layer.py --hidden 64  --epoches 6 --new 1 --round 4  ```
 
 
